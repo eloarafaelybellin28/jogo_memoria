@@ -1,0 +1,41 @@
+body{
+
+    font-family:'Times New Roman', Times, serif
+    background-color rgb(224, 218, 230);
+    text-align: center;
+}
+
+h1{
+    margin-top:20px;
+
+}
+
+#info{
+    margin:10px auto;
+    font-size: 18px;
+}
+
+.game-board{
+    width:320px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    gap:10px;
+
+}
+
+.card{
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 8px;
+    color:azure;
+    font-size: 32px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+.card-revealed{
+    background-color: lightcoral;
+}
